@@ -1,0 +1,3 @@
+s = float(input("¿Cual es el numero decimal que quiere escribir? :"))
+print("La parte entera del numero ingresado es: ", int(s))
+print("La parte decimal del numero ingresado es: ", abs(s) - abs(int(s)))
