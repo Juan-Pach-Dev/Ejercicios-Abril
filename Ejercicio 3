@@ -1,0 +1,3 @@
+d = float(input("Ingrese el primer numero :"))
+e = float(input("ingrese el segundo numero :"))
+print(d + e)
