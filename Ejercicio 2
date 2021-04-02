@@ -1,0 +1,2 @@
+a = float(input("Escriba el numero el cual desea saber su cuadrado :"))
+print(a ** 2)
