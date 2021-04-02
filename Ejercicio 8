@@ -1,0 +1,3 @@
+f = float(input("Escriba el valor del radio del circulo :"))
+print("El Perimetro del circulo :", 2 * 3.1416 * f)
+print("El Area del circulo :", 3.1416 * (f ** 2))
