@@ -1,0 +1,3 @@
+x = input("Escriba su nombre :")
+z = input("Escriba el calificativo que desee :")
+print(x + z)
