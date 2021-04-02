@@ -1,0 +1,4 @@
+i = float(input("Escriba el valor de la compra :"))
+print("El valor del producto sin iva es :", i / 1.19)
+print("El valor del iva para este producto es :", (i / 1.19) * 0.19)
+print("El valor de la compra es :", (i / 1.19) + (i / 1.19) * 0.19)
