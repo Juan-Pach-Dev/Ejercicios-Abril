@@ -1,0 +1,8 @@
+p = int(input("¿Cuanto vale el producto? :"))
+i= p * 0.19
+if p >= 150000:
+    print("El valor final de la compra aplicando el 5% es :", p - (p * 0.05))
+    print("El valor del iva antes del descuento es :", i)
+else:
+    print("El valor de la compra es :")
+    print("La compra al no ser mayor de 150000 no tiene descuento")
