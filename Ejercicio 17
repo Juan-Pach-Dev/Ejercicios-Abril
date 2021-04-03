@@ -1,2 +1,2 @@
 s = int(input("Digite la cantidad de segundos para convertilo en horas :"))
-print(s / 3600)
+print("La cantidad de horas que equivale a los segundos ingresados es de :", s / 3600)
