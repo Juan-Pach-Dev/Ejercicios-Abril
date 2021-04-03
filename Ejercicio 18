@@ -1,0 +1,2 @@
+m = int(input("Digite la cantidad de segundos para convertilo en minutos :"))
+print(m / 60)
