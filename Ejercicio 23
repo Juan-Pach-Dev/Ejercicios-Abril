@@ -1,0 +1,8 @@
+numero = int(input(" Ingrese el numero en el cual quiere saber si es Positivo o Negativo :"))
+if numero == 0:
+    print("Cero es un numero Neutro")
+else:
+    if numero > 0:
+        print("El numero ingresado es Positivo")
+    else:
+        print("El numero ingresado es Negativo")
