@@ -1,0 +1,3 @@
+t = float(input("Digite el tiempo en segundos que tardó el objeto en llegar de un punto de inicio al final :"))
+v = float(input("Digite la velocidad en metros sobre segundos que tuvo el objeo durante el recorrido :"))
+print("La distancia en metros recorrida por el objeto en", t, "segundos es de :", v * t)
