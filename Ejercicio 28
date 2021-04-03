@@ -1,0 +1,7 @@
+print("Digite dos numeros :")
+e = float(input())
+i = float(input())
+if e > i:
+    print("El numero mayor es :", e)
+else:
+    print("El numero mayor es :", i)
