@@ -1,0 +1,9 @@
+j = float(input("Digite el valor para la variable J :"))
+k = float(input("Digite el valor para la variable K :"))
+print("El valor de J al inicio es :", j)
+print("El valor de K al inicio es :", k)
+Valores = j
+j = k
+k = Valores
+print("El valor de J al final es :", j)
+print("El valor de K al final es :", k)
