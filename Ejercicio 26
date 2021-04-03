@@ -1,0 +1,5 @@
+numero = float(input("Digite un numero :"))
+if numero >= 10:
+    print("El triple del numero ingresado es :", numero * 3)
+else:
+    print("La cuarta parte del numero ingresado es :", numero / 4)
