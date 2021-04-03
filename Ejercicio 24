@@ -1,0 +1,14 @@
+numero = int(input("Ingrese el numero del que quiere saber si es Par Positivo o Par Negativo o Impar Positivo o Impar Negativo :"))
+if numero == 0:
+    print("Cero es un numero Neutro")
+else:
+    if numero % 2 == 0:
+        if numero > 0:
+            print("El numero ingresado es Par Positivo")
+        else:
+            print("El numero ingresado es Par Negativo")
+    else:
+        if numero > 0:
+            print("El numero ingresado es Impar Positivo")
+        else:
+            print("El numero ingresado es Impar Negativo")
