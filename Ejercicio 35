@@ -1,0 +1,8 @@
+usuario = "JuanPasichana31"
+contra = "Juan_Pach"
+u = str(input("¿Cual es el usario? "))
+c = str(input("¿Cual es la contraseña? "))
+if u == usuario and c == contra:
+    print("Ha ingresado a la cuenta correctamente")
+else:
+    print("El usuario o contraseña esta incorrecto, vuelva a intentar")
