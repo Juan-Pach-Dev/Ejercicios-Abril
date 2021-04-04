@@ -1,8 +1,0 @@
-print("Digite 3 numeros")
-a = float(input())
-b = float(input())
-c = float(input())
-if a + b > c:
-    print("La suma de los dos primeros numeros es mayor al tercero")
-else:
-    print("La suma de los dos primeros numeros es menor al tercero")
