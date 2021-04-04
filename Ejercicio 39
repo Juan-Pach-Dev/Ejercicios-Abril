@@ -1,0 +1,7 @@
+print("Digite 2 numeros :")
+a = float(input())
+b = float(input())
+if 0 <= a <= 5 and 0 <= b <= 5:
+    print("True")
+else:
+    print("False")
