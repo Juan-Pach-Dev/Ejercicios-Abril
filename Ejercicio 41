@@ -1,0 +1,8 @@
+print("Digite 3 numeros :")
+a = float(input())
+b = float(input())
+c = float(input())
+if a == b or a == c or b == c:
+    print("Al menos dos de los numeros ingresados son iguales")
+else:
+    print("Ninguno de los numeros ingresados son iguales")
