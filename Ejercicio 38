@@ -1,0 +1,11 @@
+print("Digite 3 numeros :")
+a = float(input())
+b = float(input())
+c = float(input())
+if a < b < c:
+    print("Los numeros estan aumentando")
+else:
+    if a > b > c:
+        print("Los numeros estan disminuyendo")
+    else:
+        print("No se incrementa ni se disminuye")
