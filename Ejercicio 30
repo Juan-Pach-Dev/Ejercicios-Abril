@@ -1,0 +1,21 @@
+print("Escriba tres numeros :")
+x = float(input())
+y = float(input())
+z = float(input())
+if x > y:
+    mayor = x
+else:
+    mayor = y
+if mayor > z:
+    mayor = mayor
+else:
+    mayor = z
+if x < y:
+    menor = x
+else:
+    menor = y
+if menor < z:
+    m = menor
+else: m = z
+print("El numero menor es :", m)
+print("El numero mayor es :", mayor)
