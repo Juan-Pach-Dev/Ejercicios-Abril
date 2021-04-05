@@ -1,0 +1,9 @@
+x = True
+while x:
+    a = float(input("Digite un numero entero positivo :"))
+    if a >= 0 and a % 1 == 0:
+        break
+    else:
+        print("El valor ingresado no es correcto, intente de nuevo")
+        continue
+print(a)
