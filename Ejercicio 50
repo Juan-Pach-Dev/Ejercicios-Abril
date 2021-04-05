@@ -1,0 +1,13 @@
+x = True
+contador = 0
+s = 0
+while x:
+    a = int(input("Digite un numero :"))
+    s = s + a
+    contador = contador + 1
+    p = input("¿Quiere seguir agregando valores?, si no quiere continuar escriba [No]")
+    if p == "No":
+        break
+prom = s / contador
+print("La suma de todos los valores es :", s)
+print("El promedio de los valores es :", prom)
