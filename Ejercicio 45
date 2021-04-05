@@ -1,0 +1,3 @@
+z = int(input("Digite un numero :"))
+for x in range(0, z):
+    print(x)
