@@ -1,4 +1,4 @@
 print("Teniendo en cuenta que el objeto en su velocidad inicial es 0")
-t = float(input("Digite el tiempo en segundos que tardó el objeto en llegar de un punto de inicio al final :"))
-a = float(input("Digite la acelaración en metros sobre segundos cuadrados que tuvo el objeo durante el recorrido :"))
-print("La velocidad final del objeto despues de", t, "segundos es de :", a * t)
+t = float(input("Digite el tiempo en segundos que tardó el objeto en llegar de un punto de inicio al final: "))
+a = float(input("Digite la acelaración en metros sobre segundos cuadrados que tuvo el objeo durante el recorrido: "))
+print("La velocidad final del objeto despues de", t, "segundos es de: ", a * t)
