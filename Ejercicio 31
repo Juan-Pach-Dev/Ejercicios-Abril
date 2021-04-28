@@ -1,4 +1,4 @@
-print("Digite 3 numeros")
+print("Digite 3 numeros: ")
 a = float(input())
 b = float(input())
 c = float(input())
