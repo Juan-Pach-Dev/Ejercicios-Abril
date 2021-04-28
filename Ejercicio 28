@@ -1,7 +1,7 @@
-print("Digite dos numeros :")
+print("Digite dos numeros para determinar cual es el mayor de ellos: ")
 e = float(input())
 i = float(input())
 if e > i:
-    print("El numero mayor es :", e)
+    print("El numero mayor es: ", e)
 else:
-    print("El numero mayor es :", i)
+    print("El numero mayor es: ", i)
