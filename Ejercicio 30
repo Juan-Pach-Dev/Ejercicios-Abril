@@ -1,4 +1,4 @@
-print("Escriba tres numeros :")
+print("Digite tres numeros para determinar el menor y mayor de ellos: ")
 x = float(input())
 y = float(input())
 z = float(input())
