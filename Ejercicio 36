@@ -1,26 +1,27 @@
-n = int(input("Digite un numero del 0 al 10 :"))
+n = int(input("Digite un numero del 0 al 10: "))
 if 0 <= n <= 10:
     if n == 0:
         print("CERO")
-    if n == 1:
+    elif n == 1:
         print("UNO")
-    if n == 2:
+    elif n == 2:
         print("DOS")
-    if n == 3:
+    elif n == 3:
         print("TRES")
-    if n == 4:
+    elif n == 4:
         print("CUATRO")
-    if n == 5:
+    elif n == 5:
         print("CINCO")
-    if n == 6:
+    elif n == 6:
         print("SEIS")
-    if n == 7:
+    elif n == 7:
         print("SIETE")
-    if n == 8:
+    elif n == 8:
         print("OCHO")
-    if n == 9:
+    elif n == 9:
         print("NUEVE")
-    if n == 10:
+    elif n == 10:
         print("DIEZ")
-else: 
+else:
     print("El numero ingresado no esta en el rango del 0 al 10, intente de nuevo")
+
