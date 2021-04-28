@@ -1,0 +1,7 @@
+horadeldia = float(input("Digite una cantidad de segundos para representarlo al día en formato de 24 horas: "))
+hora = horadeldia / 3600
+parte_decimal = hora - int(hora)
+minutos = parte_decimal * 3600 / 60
+parte_decimal = minutos - int(minutos)
+segundos = parte_decimal * 60
+print(int(hora),":", int(minutos),":", round(segundos))
