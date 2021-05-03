@@ -1,0 +1,4 @@
+# Ejercicio 29
+p = int(input("Ingrese un numero: ")) #Se convierte el número a decimal
+deci = float(p)
+print("El decimal del numero es = ", + deci)
