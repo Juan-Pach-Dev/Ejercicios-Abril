@@ -1,4 +1,5 @@
 # Ejercicio 29
+#El programa está orientado a convertir un número a decimal
 p = int(input("Ingrese un numero: ")) #Se convierte el número a decimal
 deci = float(p)
 print("El decimal del numero es = ", + deci)
