@@ -1,7 +1,21 @@
 # Ejercicio 37
-c = int(input("Cantidad de números: "))
-total = 0
-for variable in range(c):
-    numero = int(input("Número: "))
-    total += numero
-print("Total de la suma:", total)
+def contar_digitos_letras(cadena):
+    digitos = 0
+    letras = 0
+
+    for c in cadena:
+        if c.isdigit():  #La función isdigit devuelve las funciones verdaderas
+            digitos += 1
+        elif c.isalpha():  #Devuelve un carácter booleano falso o verdadero si hay caracteres alfanumericos.
+            letras += 1
+        else:
+            pass
+
+    return digitos, letras
+
+
+texto = input("Digite un texto: ")
+resultado = contar_digitos_letras(texto)
+
+print("Cantidad de dígitos: %i" % resultado[0])
+print("Cantidad de letras: %i" % resultado[1])
